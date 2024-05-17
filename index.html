@@ -243,7 +243,7 @@
     </p>
     <br>
     <p>
-      Even LLMs have demonstrated potential in translating natural language instructions into code, the resulting code often contains too many technical details. Thoes technical details makes the debugging process hard for non-professional programmers to accurately identify errors from it (Figure 1 Right). Therefore, incorporating LLMs' interactive capabilities to aid non-professional programmers in coding remains a challenge.
+      LLMs have demonstrated potential in translating natural language instructions into code. Users can interact with LLMs (e.g., ChatGPT) by posing programming questions and optionally providing input-output samples to specify requirements. When errors are identified or the generated code fails to meet the specified criteria, users often follow up with feedback prompting LLMs to refine the code solution. Despite its simplicity, the difficulty in accurately pinpointing and articulating errors in a generated code makes it challenging for non-professional users to provide meaningful corrective feedback (Figure 1 Right).
     </p>
     <br>
     <figure>
@@ -392,10 +392,10 @@
                 corrections.
               </li>
               <li>
-                Misaligned reasoning between participants’ mental models and the LLM's thought led to suggestions based on flawed assumptions.
+                Misaligned reasoning between participants’ mental models and the LLM's thought led to human feedback based on flawed assumptions.
               </li>
               <li>
-                For complex code, small changes in the explanation made it challenging for users to track.
+                For error correction in complex code, small changes in the source code made it difficult for explanations to capture, resulting in challenges in providing corrective feedback.
               </li>
             </ul>
           </p>
